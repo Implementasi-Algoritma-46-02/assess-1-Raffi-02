@@ -9,15 +9,16 @@ public class Soal03 {
 		int bilanganMenitTambah = input.nextInt();
 
 		int hasil1 = bilanganMenit + (bilanganMenitTambah + 15);
-		System.out.println(+ 1 + bilanganJam + ";" + hasil1);
-
 		int hasil2 = bilanganMenit + ( 30 - bilanganMenitTambah);
-		System.out.println(+ 1 + bilanganJam + ";" + hasil2);
+		if (bilanganMenitTambah > 60) {
+			System.out.println(+ 1 + bilanganJam + ";" + hasil1);
+		}else{
+			System.out.println(+ 1 + bilanganJam + ";" + hasil2);
 		}
 		}
 
 
-		
+		}
 		
 	
 
