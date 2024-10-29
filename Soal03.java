@@ -8,7 +8,7 @@ public class Soal03 {
 		int bilanganMenit = input.nextInt();
 		int bilanganMenitTambah = input.nextInt();
 
-		int hasil1 = bilanganMenit + (bilanganMenitTambah + 15);
+		int hasil1 = bilanganMenit + (1 + bilanganMenitTambah + 15);
 		System.out.println(bilanganJam + ";" + hasil1);
 
 		int hasil2 = bilanganMenit + ( 30 - bilanganMenitTambah);
